@@ -29,3 +29,27 @@ def validate_password(form, field):
         raise ValidationError("password cannot have repeated characters like 'aaa' or '1111'")
     if username.split('@')[0] in password:
         raise ValidationError("Password mus not contain the username/email")
+
+def validate_users_age(form, field):
+    if field.data is not None and field.data <= 0:
+        raise ValidationError("Age must be greater than zero")
+
+#------------------------------------------ syntactic validators -------------------------------------------------------------
+
+class RegisterForm(FlaskForm):
+    username = StringField("Email", validators=[DataRequired(), Length(min=5, max=120),
+                                                   Regexp(r'[a-zA-Z_]'), Email()])
+
+    password = PasswordField("Password", validators=[DataRequired(), Length(min=12), Regexp('[a-zA-Z1-9]'),
+                                                     validate_password])
+
+    role = SelectField("Role", choices=[("user","User"),("moderator","Moderator"),("admin","Admin")], default="user")
+
+    bio = TextAreaField("Bio", validators=[Length(max=200)])
+
+    age = IntegerField("Age", validators=[Optional(), validate_users_age])
+
+    consent = BooleanField("Accept Terms & Conditions", validators=[DataRequired(message="You must accept terms and conditions")])
+
+    submit = SubmitField("Register")
+
