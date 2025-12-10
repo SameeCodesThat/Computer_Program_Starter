@@ -53,3 +53,19 @@ class RegisterForm(FlaskForm):
 
     submit = SubmitField("Register")
 
+class LoginForm(FlaskForm):
+    username = StringField(
+        "Email", validators=[DataRequired(message="Username is required"),Email(message="Enter a valid email address"),
+            Length(min=5, max=50, message="Username must be 5-50 characters long")])
+
+    password = PasswordField("Password",validators=[DataRequired(message="Password is required"),
+            Length(min=10, message="Password must be at least 12 characters long")])
+
+    submit = SubmitField("Log In")
+
+class ChangePasswordForm(FlaskForm):
+    current_password = PasswordField("current password", validators=[DataRequired()])
+
+    new_password = PasswordField("new password", validators=[DataRequired(), Length(min=12), Regexp('[a-zA-Z1-9]')])
+
+    submit = SubmitField("Change Password")
