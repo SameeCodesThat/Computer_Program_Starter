@@ -1,2 +1,9 @@
 flask
 flask-sqlalchemy
+flask
+flask-sqlalchemy
+flask-wtf
+email-validator
+datetime
+bleach
+flask-login

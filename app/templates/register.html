@@ -3,9 +3,36 @@
 {% block content %}
 <h1>Register</h1>
 <form method="POST" novalidate>
-  Username: <input type="text" name="username"><br>
-  Password: <input type="password" name="password"><br>
-  Biography: <input type="text" name="bio"><br>
-  <input type="submit" value="Register">
+    {{ form.hidden_tag() }}
+    {{ form.csrf_token }}
+    <p>
+        {{ form.username.label }}
+        {{ form.username (placeholder="Username", autocomplete="username") }}
+        {% for error in form.username.errors %}
+            <span style="color: red;">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.password.label  }}
+        {{ form.password (placeholder="Password", autocomplete="password") }}
+        {% for error in form.password.errors %}
+            <span style="color: red;">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.age.label }}
+        {{ form.age() }} {% for e in form.age.errors %}<span style="color:red">{{ e }}</span>{% endfor %}
+    </p>
+    <p>
+        {{ form.consent.label }}
+        {{ form.consent() }} {% for e in form.consent.errors %}<span style="color:red">{{ e }}</span>{% endfor %}
+    </p>
+    <p>
+        {{ form.bio.label }}
+        {{ form.bio (placeholder="Bio", autocomplete="bio") }}
+    </p>
+    <p>
+        {{ form.submit() }}
+    </p>
 </form>
 {% endblock %}
