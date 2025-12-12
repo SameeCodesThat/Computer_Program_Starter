@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224f44fe-46c7-460a-b8b7-5d5ed2031c55" name="Changes" comment="class of RegisterForm(FlaskForm)">
-      <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
+    <list default="true" id="224f44fe-46c7-460a-b8b7-5d5ed2031c55" name="Changes" comment="register.html upgrade with csrf // jinja2 template">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +89,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765394429144</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="LoginForm and ChangePasswordForm results in forms.py">
+      <option name="closed" value="true" />
+      <created>1765394470687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394470687</updated>
+    </task>
+    <task id="LOCAL-00005" summary="register.html upgrade with csrf // jinja2 template">
+      <option name="closed" value="true" />
+      <created>1765394594060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394594060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit of files and code for insecure website" />
     <MESSAGE value="forms.py generated and validate_password created" />
     <MESSAGE value="class of RegisterForm(FlaskForm)" />
-    <option name="LAST_COMMIT_MESSAGE" value="class of RegisterForm(FlaskForm)" />
+    <MESSAGE value="LoginForm and ChangePasswordForm results in forms.py" />
+    <MESSAGE value="register.html upgrade with csrf // jinja2 template" />
+    <option name="LAST_COMMIT_MESSAGE" value="register.html upgrade with csrf // jinja2 template" />
   </component>
 </project>
