@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224f44fe-46c7-460a-b8b7-5d5ed2031c55" name="Changes" comment="register.html upgrade with csrf // jinja2 template">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="224f44fe-46c7-460a-b8b7-5d5ed2031c55" name="Changes" comment="imported requirements needed and updates __init`--">
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,34 +22,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SameeCodesThat"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SameeCodesThat&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SameeCodesThat/Computer_Program_Starter.git",
-    "accountId": "13ad2fe6-2707-4fae-9602-135e7d21c6e4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SameeCodesThat/Computer_Program_Starter.git&quot;,
+    &quot;accountId&quot;: &quot;13ad2fe6-2707-4fae-9602-135e7d21c6e4&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="36fNLUJuInM6AX7t9Q9NC85FYsT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -105,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765394594060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updates to html files">
+      <option name="closed" value="true" />
+      <created>1765555390639</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765555390639</updated>
+    </task>
+    <task id="LOCAL-00007" summary="imported requirements needed and updates __init`--">
+      <option name="closed" value="true" />
+      <created>1765555501885</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765555501885</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +130,8 @@
     <MESSAGE value="class of RegisterForm(FlaskForm)" />
     <MESSAGE value="LoginForm and ChangePasswordForm results in forms.py" />
     <MESSAGE value="register.html upgrade with csrf // jinja2 template" />
-    <option name="LAST_COMMIT_MESSAGE" value="register.html upgrade with csrf // jinja2 template" />
+    <MESSAGE value="updates to html files" />
+    <MESSAGE value="imported requirements needed and updates __init`--" />
+    <option name="LAST_COMMIT_MESSAGE" value="imported requirements needed and updates __init`--" />
   </component>
 </project>

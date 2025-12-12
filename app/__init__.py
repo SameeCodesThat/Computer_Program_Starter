@@ -9,7 +9,12 @@ from functools import wraps
 from datetime import datetime, timedelta
 from sqlalchemy import text
 
+load_dotenv()
+
 db = SQLAlchemy()
+csrf = CSRFProtect()
+bcrypt = Bcrypt()
+login_manager = LoginManager()
 
 def create_app():
     app = Flask(__name__)
