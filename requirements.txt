@@ -1,9 +1,13 @@
 flask
 flask-sqlalchemy
-flask
-flask-sqlalchemy
 flask-wtf
 email-validator
 datetime
 bleach
 flask-login
+bcrypt
+werkzeug
+flask-bcrypt
+datetime
+flask-talisman
+python-dotenv
