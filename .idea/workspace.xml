@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224f44fe-46c7-460a-b8b7-5d5ed2031c55" name="Changes" comment="imported requirements needed and updates __init`--">
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+    <list default="true" id="224f44fe-46c7-460a-b8b7-5d5ed2031c55" name="Changes" comment="implement flask talisman and csp for secure headers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +121,39 @@
       <option name="project" value="LOCAL" />
       <updated>1765555501885</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initialise bcrypt, login`-manager and csrf protection">
+      <option name="closed" value="true" />
+      <created>1765555622846</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765555622846</updated>
+    </task>
+    <task id="LOCAL-00009" summary="include peppering, biography sanitization, fernet key, enviroment system">
+      <option name="closed" value="true" />
+      <created>1765555672677</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765555672677</updated>
+    </task>
+    <task id="LOCAL-00010" summary="modified config for session cookies, session lifetime, password pepper, bio key, development debugging">
+      <option name="closed" value="true" />
+      <created>1765555745730</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765555745730</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implement flask talisman and csp for secure headers">
+      <option name="closed" value="true" />
+      <created>1765555807699</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765555807699</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +164,10 @@
     <MESSAGE value="register.html upgrade with csrf // jinja2 template" />
     <MESSAGE value="updates to html files" />
     <MESSAGE value="imported requirements needed and updates __init`--" />
-    <option name="LAST_COMMIT_MESSAGE" value="imported requirements needed and updates __init`--" />
+    <MESSAGE value="initialise bcrypt, login`-manager and csrf protection" />
+    <MESSAGE value="include peppering, biography sanitization, fernet key, enviroment system" />
+    <MESSAGE value="modified config for session cookies, session lifetime, password pepper, bio key, development debugging" />
+    <MESSAGE value="implement flask talisman and csp for secure headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement flask talisman and csp for secure headers" />
   </component>
 </project>
